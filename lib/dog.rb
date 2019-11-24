@@ -7,3 +7,5 @@ class Dog
     @name
   end
 end
+
+dog_name = Dog.new
