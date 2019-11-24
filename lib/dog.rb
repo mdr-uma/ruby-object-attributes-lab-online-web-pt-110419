@@ -10,9 +10,7 @@
 # end
 
 
-# dog_name = Dog.new
-# dog_name.name = "dog_name"
-# puts dog_name.name
+
 class Dog
 
   def initialize(name)
@@ -28,3 +26,7 @@ class Dog
   end
 
 end
+
+new_name = Dog.new
+new_name.name = "new_name"
+puts new_name.name
